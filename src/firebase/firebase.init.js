@@ -4,12 +4,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCJyInPVHlcSzPSXWh8z0zzQVu4ye3qHzY",
-  authDomain: "service-sphere-43a90.firebaseapp.com",
-  projectId: "service-sphere-43a90",
-  storageBucket: "service-sphere-43a90.appspot.com", // Fixed storage bucket URL
-  messagingSenderId: "349912790257",
-  appId: "1:349912790257:web:4453305e9d1fbf9d13e550"
+  apiKey: "AIzaSyBKnJPy3Qp-ggNKzlzY8y988l95gQ6L8Qg",
+  authDomain: "istebra-hostel.firebaseapp.com",
+  projectId: "istebra-hostel",
+  storageBucket: "istebra-hostel.firebasestorage.app",
+  messagingSenderId: "937520811740",
+  appId: "1:937520811740:web:d661fdde3edad7f7b52e19"
 };
 
 // Initialize Firebase

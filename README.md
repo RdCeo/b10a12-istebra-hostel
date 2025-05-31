@@ -1,13 +1,13 @@
-## Project Name : Hostel Management Client
+## Project Name : Istebra Hostel (Hostel Management Client side)
 
 ## Admin Credentials :
 
-- **Username :** cr7@gmail.com
-- **Password :** 1412Mu@
+- **Username :** ceojonym@gmail.com
+- **Password :** Prog@2025
 
 ## Live Site URL :
 
--- https://b10a12-final-project-ffb43.web.app
+-- 
 
 ## Purpose :
 
