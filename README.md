@@ -105,4 +105,4 @@ Dev
 
 🌐 Live Demo
 👉 Visit the live project here:
-🔗 https://istebra-hostel.web.app
+🔗 https://istebra-hostel.netlify.app/
