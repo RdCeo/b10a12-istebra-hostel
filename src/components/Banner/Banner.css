@@ -1,0 +1,19 @@
+/* Banner.css */
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #3b82f6; /* Tailwind's blue-600 */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #2563eb; /* Tailwind's blue-700 */
+}
+
+/* Optional: hide arrows if you want */
+.slick-arrow {
+  display: none !important;
+}
+.slick-slider {
+  width: 100%;
+  max-width: 1200px; /* Adjust as needed */
+  margin: auto;
+}
