@@ -7,6 +7,10 @@
 
 ## Live Site URL : https://istebra-hostel.netlify.app/
 
+## 🌐 Server Live Link
+
+👉 [https://b10a12-istebra-hostel-server.vercel.app/]
+
 -- 
 # 🏨 Istebra Hostel Management System
 
