@@ -5,108 +5,100 @@
 - **Username :** ceojonym@gmail.com
 - **Password :** Prog@2025
 
-## Live Site URL :
+## Live Site URL : https://istebra-hostel.netlify.app/
 
 -- 
+# 🏨 Istebra Hostel Management System
 
-## Purpose :
+The **Istebra Hostel Management System** is a **MERN stack** web application designed to streamline hostel meal management for students. It empowers **administrators** to manage students, meals, and reviews efficiently, while providing **students** with an intuitive platform to log in, view, request, and review meals.
 
-- The Hostel Management System is a MERN stack-based web application designed to streamline hostel meal management for students. It enables administrators to manage students, meals, and reviews efficiently while providing students with an intuitive platform to log in, view, and request meals.
+---
 
-## Features :
+## 🎯 Purpose
 
-1. **Student Login and Profile Management**:
-   - Students can log in to access their profiles.
-2. **Meal Management**:
-   - Admins can add, update, and delete meal details such as title, image, category, ingredients, and price.
-   - Meals are categorized as Breakfast, Lunch, and Dinner.
-3. **Food Reviews**:
-   - Students can post reviews for meals with ratings and comments.
-   - Admins have the authority to delete reviews.
-4. **Dynamic Meal Details**:
-   - View complete details of meals, including the distributor's name, ingredients, description, rating, and post time.
-5. **Meal Request System**:
-   - Students can request specific meals (requires a package subscription).
-   - Admins can manage and serve requested meals, updating their status.
-6. **Responsive Design**:
-   - Fully responsive layout for seamless usage on mobile, tablet, and desktop devices.
-7. **Upcoming Meals Management**:
-   - Premium users can view and like upcoming meals before they are published.
-   - Admins can schedule and publish upcoming meals.
-8. **Stripe Payment Integration**:
-   - Users can purchase premium packages (Silver, Gold, Platinum) securely via Stripe.
-   - Badges are assigned to users based on their subscription level.
-9. **Admin Dashboard**:
-   - Features include managing users, meals, food reviews, and upcoming meals.
-   - Server-side search and sort functionalities enhance administrative efficiency.
-10. **Persistent Login and JWT Authentication**:
-    - Users remain logged in even after refreshing the page.
-    - Secure authentication via JWT tokens and Axios interceptor for API requests.
+The Istebra Hostel system helps hostels:
+- Manage student meal requests.
+- Schedule and display upcoming meals.
+- Collect and display reviews and ratings.
+- Offer subscription-based premium features.
 
-## Additional Pages :
+---
 
-- **Join Us Page:** User registration and social login options are implemented.
-- **User Dashboard:** Displays user profile, requested meals, reviews, and payment history.
-- **Admin Dashboard:** Offers comprehensive tools for managing the system effectively.
+## 🌟 Features
 
-## Technology Stack :
+- ✅ **Student Login & Profile Management**  
+  Students can log in, manage profiles, and access services.
 
-- **Front-End:** React.js, Tailwind CSS, React Router, React Hook Form
-- **Back-End:** Node.js, Express.js
-- **Database:** MongoDB
-- **Authentication:** Firebase
-- **Payment Gateway:** Stripe
+- ✅ **Meal Management**  
+  Admins can **add, edit, and delete** meals with categories: **Breakfast, Lunch, Dinner**.
 
-## Installation and Setup
+- ✅ **Food Reviews**  
+  Students can post ratings and reviews. Admins can manage reviews.
 
-### Clone the repository
+- ✅ **Dynamic Meal Details**  
+  View detailed info like distributor, ingredients, rating, and time.
 
-- git clone
+- ✅ **Meal Request System**  
+  Students can request meals (requires subscription). Admins manage requests and status.
 
-### Install dependencies
+- ✅ **Upcoming Meals (Premium Users)**  
+  Premium users see, like, and react to upcoming meals. Admins schedule and publish.
 
-- npm install
+- ✅ **Stripe Payment Integration**  
+  Secure checkout for subscription packages: **Silver, Gold, Platinum**.  
+  Users earn **badges** based on their plan.
 
-### Start the server
+- ✅ **Admin Dashboard**  
+  Manage users, meals, reviews, and upcoming meals with search/sort functionality.
 
-- npm run dev / npx vite
+- ✅ **Persistent Login with JWT**  
+  Users remain logged in with JWT tokens and Axios interceptors.
 
-## dependencies
+- ✅ **Responsive Design**  
+  Mobile-friendly and fully responsive across all devices.
 
-- "@headlessui/react": "^2.2.0",
-- "@stripe/react-stripe-js": "^3.1.1",
-- "@stripe/stripe-js": "^5.5.0",
-- "@tanstack/react-query": "^5.64.1",
-- "axios": "^1.7.9",
-- "firebase": "^11.1.0",
-- "moment": "^2.30.1",
-- "moment-timezone": "^0.5.46",
-- "react": "^18.3.1",
-- "react-dom": "^18.3.1",
-- "react-helmet-async": "^2.0.5",
-- "react-hook-form": "^7.54.2",
-- "react-hot-toast": "^2.5.1",
-- "react-icons": "^5.4.0",
-- "react-infinite-scroll-component": "^6.1.0",
-- "react-query": "^3.39.3",
-- "react-rating-stars-component": "^2.2.0",
-- "react-router-dom": "^7.1.1",
-- "react-spinners": "^0.15.0",
-- "sweetalert2": "^11.15.10"
+---
 
-## devDependencies
+## 📄 Additional Pages
 
-- "@eslint/js": "^9.17.0",
-- "@types/react": "^18.3.18",
-- "@types/react-dom": "^18.3.5",
-- "@vitejs/plugin-react": "^4.3.4",
-- "autoprefixer": "^10.4.20",
-- "daisyui": "^4.12.23",
-- "eslint": "^9.17.0",
-- "eslint-plugin-react": "^7.37.2",
-- "eslint-plugin-react-hooks": "^5.0.0",
-- "eslint-plugin-react-refresh": "^0.4.16",
-- "globals": "^15.14.0",
-- "postcss": "^8.4.49",
-- "tailwindcss": "^3.4.17",
-- "vite": "^6.0.5"
+- 📥 **Join Us Page** – User registration and social login.
+- 📂 **User Dashboard** – Profile, requested meals, reviews, and payments.
+- 🛠️ **Admin Dashboard** – Full system management tools.
+
+---
+
+## 🛠️ Technology Stack
+
+| Front-End            | Back-End         | Database   | Auth         | Payment  |
+| -------------------- | ---------------- | ---------- | ------------ | -------- |
+| React.js, Tailwind   | Node.js, Express | MongoDB    | Firebase     | Stripe   |
+| React Router         |                  |            |              |          |
+| React Hook Form      |                  |            |              |          |
+
+---
+
+## 🚀 Installation & Setup
+
+1️⃣ **Clone the Repository**
+```bash
+git clone https://github.com/your-username/istebra-hostel.git
+cd istebra-hostel
+
+Core
+"@headlessui/react", "@stripe/react-stripe-js", "@stripe/stripe-js",
+"@tanstack/react-query", "axios", "firebase", "moment", "moment-timezone",
+"react", "react-dom", "react-helmet-async", "react-hook-form",
+"react-hot-toast", "react-icons", "react-infinite-scroll-component",
+"react-query", "react-rating-stars-component", "react-router-dom",
+"react-spinners", "sweetalert2"
+
+Dev
+"@eslint/js", "@types/react", "@types/react-dom", "@vitejs/plugin-react",
+"autoprefixer", "daisyui", "eslint", "eslint-plugin-react",
+"eslint-plugin-react-hooks", "eslint-plugin-react-refresh", "globals",
+"postcss", "tailwindcss", "vite"
+
+
+🌐 Live Demo
+👉 Visit the live project here:
+🔗 https://istebra-hostel.web.app
